@@ -3,7 +3,7 @@
  */
 import java.util.ArrayList;
 import java.util.List;
-
+@SuppressWarnings({"deprecation", "unchecked"})
 public class Author extends Person {
     private List books;
 
@@ -16,6 +16,7 @@ public class Author extends Person {
      * @deprecated Use addBook instead
      */
     @Deprecated
+
     public List<String> getBooks() {
         return books;
     }
